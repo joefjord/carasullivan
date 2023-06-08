@@ -1,0 +1,433 @@
+@charset "UTF-8";
+/* CSS Document */
+/* This is a CSS comment */
+
+body {
+	
+	
+	}
+	
+html {
+	margin-top: 20px;
+	background:url(images/Bruise-2-cover.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  	background-size: cover;
+	margin: 0 auto;
+	background-color: #8b7f8b;
+	}
+
+#container{
+    height: 8680px;
+	}
+	
+#content {
+	position:relative;
+	margin-left: 45%;
+	background-color: rgba(255, 255, 255, 0.5);
+	height: auto;
+	width: 600px;
+    padding-bottom: 840px;
+	}
+
+#teaching-content {
+	
+	margin-left: 45%;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 600px;
+    height: 21850px;
+	}
+	
+#teaching-content h3{
+	font-size: .9em;
+	padding-top: 8px;
+	margin-left: 15px;
+	font-family: "museo-sans",sans-serif;
+	font-weight:700;
+	color:#584460;
+	}
+
+.heading {
+	font-family: "museo-sans",sans-serif;
+	font-weight:100;
+	font-size:21px;
+	margin-left: 15px;
+	color: #584460;
+	}
+
+.subheading  {
+	font-family: "museo-sans",sans-serif;
+	font-weight: 100;
+	font-size:16px;
+	margin-left: 15px;
+	margin-top: 15px;
+	color: #584460;
+	}
+
+.fancy1 {
+	margin: 0 auto;
+	}
+	
+.fancy1 a img{
+	padding-bottom: 15px;
+	margin-left: 15px;
+	}
+	
+#fancy2 {
+	margin: 0 auto;
+	}
+	
+#fancy2 a img{
+	padding-bottom: 15px;
+	margin-left: 15px;
+	}
+	
+#fancy3 {
+	margin: 0 auto;
+	}
+	
+#fancy3 a img{
+	padding-bottom: 15px;
+	margin-left: 15px;
+	}
+	
+#fancy4 {
+	margin: 0 auto;
+	}
+	
+#fancy4 a img{
+	padding-bottom: 15px;
+	margin-left: 15px;
+	}
+
+#home {	
+	height: 1500px;
+	width: 470px;
+	margin: 0 auto;
+	}
+	
+#painting-spacer {
+	position:relative;
+	margin-top: 1400px;
+	height: 75px;
+	width:600px;
+	}
+	
+#painting {
+	height: 1725px;
+	width: 485px;
+	margin: 0 auto;	
+	margin-left: 55px;
+	padding-top: 45px;
+	}
+
+#sculpture-spacer {
+	position:relative;
+	margin-top: 1500px;
+	height: 75px;
+	width:600px;
+	}
+	
+#sculpture {
+	height: 525px;
+	width: 485px;
+	margin: 0 auto;
+	margin-left: 55px;
+	padding-top: 45px;
+	}
+
+#other-spacer {
+	position:relative;
+/*	margin-top: 100px;*/
+	height: 75px;
+	width:600px;
+	}
+	
+#other {
+	height: 285px;
+	width: 485px;
+	margin: 0 auto;
+	margin-left: 55px;
+/*	padding-top: 45px;*/
+	}
+
+#teaching-spacer {
+	position:relative;
+	height: 75px;
+	width:600px;
+	}
+	
+#teaching {
+	height: 3143px;
+	width: 485px;
+	margin: 0 auto;
+	margin-left: 55px;
+	padding-top: 25px;
+	}
+
+#about-spacer {
+	position:relative;
+	margin-left: 0px;
+	margin-top: 500px;
+	height: 75px;
+	width:600px;
+	}
+	
+#about {
+	height: 4285px;
+	width: 550px;
+	margin: 0 auto;
+	padding-top: 45px;
+	}
+	
+#about h1{
+	font-size: 0.7em;
+	padding-top: 20px;
+	font-family: "museo-sans",sans-serif;
+	font-weight:600;
+	color:#76427B;
+	}
+
+#about h3{
+	font-size: 0.6em;
+	padding-top: 8px;
+	margin-left: 0px;
+	font-family: "museo-sans",sans-serif;
+	font-weight:700;
+	color:#76427B;
+	}
+
+#about p{
+	font-size: 0.7em;
+	margin-left: 0px;
+	font-family: "museo-sans",sans-serif;
+	font-weight:300;
+	color:#76427B;
+	}
+	
+.about-link {
+    color:#76427B;
+    text-decoration: none;
+}
+
+.about-link:hover {color:white;}
+
+.rutgers {
+	
+	}
+	
+.rutgers {
+	list-style-type: none;
+	}
+	
+.rutgers li {
+	text-decoration: none;
+	color:#76427B;
+	font-size: 0.7em;
+	margin-left: 0px;
+	font-family: "museo-sans",sans-serif;
+	font-weight:300;
+	}
+	
+p strong {
+	font-size: 0.9em;
+	padding-top: 8px;
+	margin-left: 0px;
+	font-family: "museo-sans",sans-serif;
+	font-weight:700;
+	color:#76427B;
+	}
+	
+#nav {
+	position: fixed;
+	bottom: 12%;
+	margin-left: 35px;
+	}
+
+.teaching-nav {
+    bottom: 5% !important;
+}
+
+#nav h1 {
+	font-size: 2.8em;
+	margin-left: 35px;
+	font-family: "museo-sans",sans-serif;
+	font-weight:700;
+	color:#76427B;
+	}
+	
+#nav h1 a {
+	text-decoration: none;
+	color:#FFF;
+	}
+	
+#nav h1 a:hover {
+	color: #584460;
+	}
+	
+#nav ul {
+	font-family: "museo-sans",sans-serif;
+	font-weight:100;
+	list-style-type: none;
+	margin-left: 0px;
+	margin-top: 0px;
+	}
+	
+#nav ul li {
+	padding-bottom: 7px;
+	}
+	
+#nav ul li a {
+	text-decoration: none;	
+	color: #C1A4AA;
+	}
+	
+#nav ul li a:hover {	
+	color: #fff;
+	}
+
+
+
+#sub-menu {
+    color: rgba(0, 0, 0, .7);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#sub-menu a li {
+    color: rgba(255, 255, 255, .7);
+}
+
+#sub-menu a:hover li {
+    color: rgba(255, 255, 255, .3);
+}
+
+@media only screen and (max-width: 500px) {
+    html {
+        background-image: none;
+    }
+    
+    #nav {
+	position: absolute;
+	top: 0;
+    max-width: 320px;
+    height: 200px;
+    background-color: #8b7f8b;
+    margin: 0 auto;
+	}
+    
+    #nav h1 {
+	font-size: 2.8em;
+/*	margin-left: 35px;*/
+	font-family: "museo-sans",sans-serif;
+	font-weight:700;
+	color:#76427B;
+	}
+    
+    #nav ul li {
+	padding-bottom: 7px;
+    font-size: 1.2em;
+	}
+    
+    #content {
+	position:relative;
+	margin-left: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	height: auto;
+	width: 100%;
+    padding-bottom: 840px;
+	}
+    
+    #teaching-content {
+	
+	margin-left: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 100%;
+   
+	}
+    
+    #painting-spacer {
+	position:relative;
+	margin-top: 250px;
+	height: 75px;
+	width: 100%;
+	}
+
+#sculpture-spacer {
+	position:relative;
+	margin-top: 510px;
+	height: 75px;
+	width: 100%;
+	}
+    
+    #teaching-spacer {
+	position:relative;
+	height: 75px;
+	width: 100%;
+	}
+
+#about-spacer {
+	position:relative;
+	margin-left: 0px;
+	margin-top: 250px;
+	height: 35px;
+	width: 100%;
+	}
+    
+#other-spacer {
+	position:relative;
+/*	margin-top: 100px;*/
+	height: 55px;
+	width: 100%;
+	}
+    
+#painting {
+	height: 1725px;
+	width: 100%;
+	margin: 0 auto;	
+	margin-left: 0;
+	padding-top: 45px;
+	}
+    
+#sculpture {
+	height: 375px;
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 0;
+	padding-top: 45px;
+	}
+    
+#other {
+	height: 285px;
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 0;
+/*	padding-top: 45px;*/
+	}
+    
+#about {
+	height: 6400px;
+    max-width: 285px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 45px;
+    padding-right: 15px;
+	}
+    
+.fancy1 a img {
+        max-width: 40%;
+    }
+    
+#fancy2 a img {
+        max-width: 40%;
+    }
+    
+#fancy3 a img {
+        max-width: 40%;
+    }
+    
+#fancy4 a img {
+        max-width: 40%;
+    }
+}

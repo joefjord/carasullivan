@@ -1,0 +1,19 @@
+--- 
+MYSQL: 
+  dbs: {}
+
+  dbusers: {}
+
+  noprefix: {}
+
+  owner: carakxms
+  server: 199.188.204.152
+PGSQL: 
+  dbs: {}
+
+  dbusers: {}
+
+  noprefix: {}
+
+  owner: carakxms
+  server: 199.188.204.152

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "teaching"
+AuthUserFile "/home/brycuarw/.htpasswds/public_html/carasullivan.com/teaching/passwd"
+require valid-user

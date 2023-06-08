@@ -1,0 +1,391 @@
+@charset "UTF-8";
+body {
+	margin: 0px;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header {
+	margin: auto;
+	width: 960px;
+	height: 209px;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-top: none;
+}
+
+.content {
+	background-color:#fff;
+	width:848px;
+	height: 1500px;
+	margin: 0 auto;
+}
+
+.content-about {
+	background-color:#fff;
+	width:848px;
+	height: 1500px;
+	margin: 0 auto;
+}
+
+.content-home {
+	background-color:#fff;
+	width:848px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.content-contact {
+	background-color:#fff;
+	width:848px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.content-portfolio {
+	background-color:#fff;
+	width:848px;
+	height: 1150px;
+	margin: 0 auto;
+}
+
+.tk-museo-sans {
+	font-family: museo-sans;
+	font-weight: bold;
+	color: #000;
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 0px;
+}
+
+
+.a {
+	font-family: museo-sans;
+	font-weight:200;
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav {
+	font-family: museo-sans;
+	text-decoration: none;
+	float:left;
+	color: #fff;
+	position: absolute;
+	margin-left:210px;
+	margin-top:130px;
+
+}
+.nav #about a {
+	font-family: museo-sans;
+	font-weight:200;
+	text-decoration: none;
+	color: #E44145;
+}
+.nav #contact a {
+	font-family: museo-sans;
+	font-weight:200;
+	color: #E44145;
+	text-decoration: none;
+}
+.container .header .tk-brandon-grotesque a:hover{
+	color: #8C7F77;
+}
+.tk-museo-sans a {
+	font-family: museo-sans;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+.nav #commissions a {
+	color: #E44145;
+	text-decoration: none;
+}
+
+.nav li {
+	font-family: museo-sans;
+	font-weight: 200;
+	font-size: 1.3em;
+	list-style-type: none;
+	color: #fff;
+	float: left;
+	padding-right:40px;
+	margin-right: 20px;
+	border-right: thin #E44145;
+}
+
+.nav #about a:hover {
+	color: #F9D7D9;
+	text-decoration: none;
+}
+
+.nav #commissions a:hover {
+	color: #F9D7D9;
+	text-decoration: none;
+}
+
+.nav #contact a:hover {
+	color: #F9D7D9;
+	text-decoration: none;
+}
+
+#footer {
+	font-family: museo-sans;
+	font-size: 0.7em;
+	font-weight: 200;
+	color: #FFF;
+	background-color: #E44145;
+	text-align: center;
+	height: 25px;
+	width: 100%;
+	position: fixed;
+	z-index: 11;
+	margin: 0px auto;
+	padding-top: 4px;
+	bottom: 0;
+    left: 0;
+    right: 0;
+}
+.philosophy {
+	font-family: "jubilat";
+	width: 480px;
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:16px;
+	margin-top:16px;
+	background-color:#FFF
+}
+.courses {
+	font-family: "jubilat";
+	width: 235px;
+	height: 450px;
+	float:right;
+	background-color: #efefef;
+	margin-right:16px;
+	margin-top:48px;
+	padding-left:15px;
+	padding-right:15px;
+}
+.photo {
+	margin-left:16px;
+	margin-top:16px;
+	float:left;
+}
+.bio {
+	width:521px;
+	height:545px;
+	background-color:#efefef;
+	margin-right:16px;
+	margin-top:22px;
+	float:right;
+}
+.phil-headline {
+	
+	line-height:125%;
+	font-weight: medium;
+	color: #620607;
+	font-size: 1.6em;
+	padding-bottom:5px;
+	border-bottom: #9D918D thin dotted;
+}
+.content .courses h3 {
+	color: #620607;
+	font-weight: 300;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+}
+.courses ul .course-headings {
+	font-size: 0.9em;
+	font-weight: medium;
+	color: #620607;
+	text-decoration: none;
+	margin-top: 7px;
+	list-style-type: none;
+}
+.courses ul .course-links {
+	font-size: 0.7em;
+	color: #000;
+	text-decoration: none;
+	list-style-type: none;
+}
+.courses ul .course-links a {
+	font-size: 1em;
+	color: #000;
+	text-decoration: none;
+	list-style-type: none;
+	
+}
+.courses ul .course-links a:hover {
+	font-size: 1em;
+	color: #327C97;
+	text-decoration: none;
+	list-style-type: none;
+}
+.content .courses ul {
+	padding: 0px;
+}
+.bio-headline{
+	font-family: "brandon-grotesque";
+	font-size: 3.5em;
+	color: #620607;
+	font-variant: small-caps;
+	line-height: .8em;
+	text-align: center;
+	position:
+}
+.content .bio img {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.content .about {
+	width: 250px;
+}
+.about .about-cv a {
+	font-size: 1.1em;
+	font-weight: medium;
+	line-height:2em;
+	color: #620607;
+	text-decoration: none;
+	list-style-type: none;
+}
+.about-links a {
+	font-family: "jubilat";
+	font-size: 1em;
+	line-height:2em;
+	color: #000;
+	text-decoration: none;
+	list-style-type: none;
+}
+.about-links a:hover {
+	font-family: "jubilat";
+	font-size: 1em;
+	line-height:2em;
+	color: #327C97;
+	text-decoration: none;
+	list-style-type: none;
+}
+.about .about-cv a:hover {
+	font-size: 1.1em;
+	font-weight: medium;
+	line-height:2em;
+	color: #327C97;
+	text-decoration: none;
+	list-style-type: none;
+}
+.about-cv {
+	font-size: 1.1em;
+	font-weight: medium;
+	line-height:2em;
+	color: #620607;
+	text-decoration: none;
+	list-style-type: none;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;	
+}
+.about-links-heading {
+	padding-top:0px;
+	font-size: 1.1em;
+	font-weight: medium;
+	color: #620607;
+	text-decoration: none;
+	margin-top: 7px;
+	list-style-type: none;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;	
+}
+.container .content .about {
+	padding-left:26px;
+	padding-top:15px;
+	margin-top: 0px;
+}
+.about-links {
+	font-family: "jubilat";
+	font-size: 0.9em;
+	line-height:2em;
+	color: #000;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.bio-text{
+	font-family: "jubilat";
+	width: 475px;
+	padding-right: 15px;
+	margin-left: 25px;
+	margin-right:18px;
+	margin-top:40px;
+}
+.form {
+	float: right;
+	width: 300px;
+	color: #620607;
+	font-size:1.1em;
+	font-weight: 400;
+	line-height: 2em;
+	margin-top: 50px;
+	margin-right:75px;
+	font-family: "brandon-grotesque";
+	font-weight:medium;
+}
+.contact-sidebar{
+	float:left;
+	width: 200px;
+	margin-top:0px;'
+}
+.contact-links-heading {
+	padding-top:50px;
+	font-size: 1.1em;
+	font-weight: medium;
+	color: #620607;
+	text-decoration: none;
+	margin-top: 0px;
+	list-style-type: none;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+}
+.contact-list-items {
+	font-family: "jubilat";
+	font-size: 0.9em;
+	line-height:2em;
+	color: #000;
+	text-decoration: none;
+	list-style-type: none;
+}
+.social{
+	float:left;
+	padding-left: 0px;
+	padding-top: 7px;
+}
+
+.fancy{
+	width: 615px;
+	height: 1100px;
+	margin: 0 auto;
+}
+
+.spacer{
+	width: 615px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+#footer a {
+	font-family: "museo-sans";
+	font-size: 1em;
+	font-weight: 200;
+	color: #FFF;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	color: #333;
+}
