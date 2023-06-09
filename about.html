@@ -294,17 +294,33 @@ Highlands, NC, Juror: Jonathan Stuhlman, Curator of American Art, Mint Museum</p
 <section id="contact">
 <h2>Get in touch</h2>
 
-<form action="form-to-email.php" method="post" name="myemailform">
+<form 
+method="post" 
+action="#" 
+netlify
+netlify-honeypot="bot-field"
+>
+<input type="hidden" name="subject" 
+value="Form inquiry from carasullivan.com" />
+
 <div class="fields">
-<div class="field half"><input id="name" name="name" placeholder="Name" type="text" /></div>
-
-<div class="field half"><input id="email" name="email" placeholder="Email" type="email" /></div>
-
-<div class="field"><textarea id="message" name="message" placeholder="Message"></textarea></div>
+	<div class="field half">
+		<input type="text" name="name" id="name" placeholder="Name" />
+	</div>
+	<div class="field half">
+		<input type="email" name="email" id="email" placeholder="Email" />
+	</div>
+	<div class="field">
+		<textarea name="message" id="message" placeholder="Message"></textarea>
+	</div>
+	<p class="hidden">
+		<label>
+		  Don’t fill this out if you’re human: <input name="bot-field" />
+		</label>
+	  </p>
 </div>
-
 <ul class="actions">
-	<li><input class="primary" name="submit" type="submit" value="send" /></li>
+	<li><input type="submit" value="Send" class="primary" /></li>
 </ul>
 </form>
 </section>

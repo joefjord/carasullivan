@@ -73,6 +73,10 @@ body {
 .featherlight-inner {
     padding: 0;
 }
+
+.hidden {
+    display: none;
+}
 /*
   ========================================
   Grid
