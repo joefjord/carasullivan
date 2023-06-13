@@ -160,6 +160,18 @@ body {
   padding: 44px 0 22px 0;
 }
 
+.row-gallery {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 960px;
+  padding: 0 0 44px 0;
+}
+
+.row-gallery img {
+  width: 32%;
+  height: auto;
+}
+
 /*
   ========================================
   Typography
@@ -610,9 +622,17 @@ p a {
 */
 
 .speaker {
-  margin-bottom: 44px;
+  margin-top: 44px;
+  margin-bottom: 4px;
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #dfe2e5;
+  margin: 0 auto 44px auto;
+  width: 90%;
+}
 
 /*
   ========================================
