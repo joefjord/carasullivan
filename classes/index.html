@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summer Studio</title>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <!-- Add feather light -->
     <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
   </head>
@@ -188,7 +188,7 @@
           <thead class="heading-space">
             <tr>
               <th  scope="row">
-                Fabricate 
+                <span style= "text-transform: uppercase;">Fabric</span><span style="font-weight:300; text-transform: uppercase;">ate</span>
               <br>
                 <span class="date">June 26th - 30th</span>
                 
@@ -239,6 +239,47 @@
                 7th - 12th graders
               </td>
 
+            </tr>
+
+
+          </tbody>
+        </table>
+
+        <table>
+          <thead>
+            <tr>
+              <th scope="row">
+                Adult Painting 
+              <br>
+              <span class="date">June 26th - 30th</span>
+                
+              </th>
+              <td class="schedule-offset" colspan="2">
+                
+                <div class="dropdown5">
+                  <button class="btn-top5">
+                      <span>More Info</span>
+                      <svg fill="black" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                          version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 407.437 407.437"
+                          style="enable-background:new 0 0 407.437 407.437;" xml:space="preserve">
+                          <polygon points="386.258,91.567 203.718,273.512 21.179,91.567 0,112.815 203.718,315.87 407.437,112.815 " />
+                      </svg>
+                  </button>
+                  <div class="bloc-links5">
+                    <p>We will draw from life, learn about color theory, and value shapes, and we'll do a little pet portraiture just for fun! Examples and a more detailed project description can be found in the registration form.</p>
+                  </div>
+              </div>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">
+                <time datetime="18:00:00">6:00 PM - 8:00</time>
+              </th>
+              <td class="schedule-offset tables-space" colspan="2">
+                Ages 18+
+              </td>
             </tr>
 
 
@@ -468,6 +509,26 @@ function toggleDropDown4(){
 
     blocLinks4.style.height = 0;
     toggleIndex4 = false;
+}
+
+const dropdown5 = document.querySelector('.dropdown5');
+const blocLinks5 = document.querySelector('.bloc-links5');
+const btnDrop5 = document.querySelector('.btn-top5');
+const liItems5 = document.querySelectorAll('.dropdown5 li');
+
+let toggleIndex5;
+
+btnDrop5.addEventListener('click', toggleDropDown5);
+
+function toggleDropDown5(){
+    if(!toggleIndex5) {
+        blocLinks5.style.height = `${blocLinks5.scrollHeight}px`;
+        toggleIndex5 = true;
+        return;
+    }
+
+    blocLinks5.style.height = 0;
+    toggleIndex5 = false;
 }
     </script>
   </body>
